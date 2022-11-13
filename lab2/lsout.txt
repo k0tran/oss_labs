@@ -1,0 +1,11 @@
+.:
+total 4
+drw-rw-r--. 2 user user 22 Nov 13 18:34 dir
+-rw-r-----. 1 root user  5 Nov 13 18:32 file
+-rw-------. 1 user user  0 Nov 13 18:41 file1
+-rw-rw-rw-. 1 user user  0 Nov 13 18:42 file2
+-rw-rw-rw-. 1 user user  0 Nov 13 18:49 lsout.txt
+
+./dir:
+total 0
+-????????? ? ? ? ?            ? new_file
