@@ -1,4 +1,4 @@
 #!/bin/bash
 # В задании про подкаталоги ничего не было сказано, поэтому так.
 # Если нужно смотреть подкаталоги, то надо убрать `-maxdepth 1`
-find "$HOME" -maxdepth 1 -name "*.txt" | wc -l
+find "$HOME" -maxdepth 1 -type f -name "*.txt" | wc -l
