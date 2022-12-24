@@ -1,12 +1,11 @@
 #!/bin/bash
-CMD="find -maxdepth 1 -type"
 echo "Каталоги:"
-$CMD d
+ls -l | grep ^d
 echo "Обычные файлы:"
-$CMD f
+ls -l | grep ^-
 echo "Символьные ссылки:"
-$CMD l
+ls -l | grep ^l
 echo "Символьные устройства:"
-$CMD c
+ls -l | grep ^c
 echo "Блочные устройства:"
-$CMD b
+ls -l | grep ^b
