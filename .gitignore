@@ -1,0 +1,3 @@
+# exclude lab6 compile results
+lab6/*
+!lab6/*.*
